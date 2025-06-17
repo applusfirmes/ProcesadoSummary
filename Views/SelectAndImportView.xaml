@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="ProcesadoSummary.Views.SelectAndImportView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:ProcesadoSummary.ViewModel"
+             xmlns:local="clr-namespace:ProcesadoSummary.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="White">
+    <UserControl.DataContext>
+        <vm:SelectAndImportViewModel/>
+    </UserControl.DataContext>
+
+    <Grid Margin="30">
+        <Border Background="#F8F9FA" CornerRadius="10" Padding="30" BorderBrush="#DDDDDD" BorderThickness="1">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" >
+
+                <!-- Título -->
+                <TextBlock Text="Importar Base de Datos" FontSize="26" FontWeight="Bold" 
+                           HorizontalAlignment="Center" Foreground="#333" Margin="0,0,0,20"/>
+
+                <!-- Botón Seleccionar -->
+                <Button Content="Seleccionar archivo MDB" Style="{StaticResource PrimaryButtonStyle}" 
+                        Command="{Binding SelectMdbCommand}" Margin="0,0,0,10"/>
+
+                <!-- Nombre del archivo seleccionado -->
+                <TextBlock Text="{Binding NombreMdbSelected}" TextAlignment="Center" 
+                           FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,20"/>
+
+                <!-- Campos JPG -->
+                <Grid Margin="0,0,0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="150" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="JPG INI:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                    <TextBox Text="{Binding txtInicio, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" 
+                             Style="{StaticResource InputTextBoxStyle}" />
+
+                    <TextBlock Text="JPG FIN:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="0,10,10,0"/>
+                    <TextBox Text="{Binding txtFin, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" 
+                             Style="{StaticResource InputTextBoxStyle}" Margin="0,10,0,0"/>
+
+                    <TextBlock Text="Indicar cada m:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,10,10,10"/>
+                    <ComboBox ItemsSource="{Binding ComboboxMetros}" Grid.Row="2" Grid.Column="2" 
+                              SelectedItem="{Binding MetrosSelected, Mode=TwoWay}" Width="90" Height="20" Margin="0,10,0,0" IsEditable="True" IsTextSearchEnabled="True"/>
+
+
+
+                </Grid>
+
+                <!-- Botón Importar -->
+                <Button Content="Importar Summary" Style="{StaticResource PrimaryButtonStyle}" 
+                        Command="{Binding ImportSummaryCommand}"/>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+
+</UserControl>

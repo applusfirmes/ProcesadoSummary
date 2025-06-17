@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "PJq74Ef2GTo=",
+  "success": true,
+  "projectFilePath": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\ProcesadoSummary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\epplus\\8.0.5\\epplus.8.0.5.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\epplus.interfaces\\8.0.0\\epplus.interfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.1\\microsoft.extensions.configuration.fileextensions.8.0.1.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.1\\microsoft.extensions.configuration.json.8.0.1.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.1\\microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.5\\system.configuration.configurationmanager.9.0.5.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.data.oledb\\9.0.5\\system.data.oledb.9.0.5.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.5\\system.diagnostics.eventlog.9.0.5.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.5\\system.diagnostics.performancecounter.9.0.5.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.5\\system.security.cryptography.protecteddata.9.0.5.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.security.cryptography.xml\\8.0.2\\system.security.cryptography.xml.8.0.2.nupkg.sha512",
+    "C:\\Users\\sebastian.miranda\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

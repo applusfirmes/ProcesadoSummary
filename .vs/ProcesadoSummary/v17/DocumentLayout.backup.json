@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|c:\\aplicacionesapplus\\procesadosummary\\procesadosummary\\viewmodel\\selectandimportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|solutionrelative:viewmodel\\selectandimportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|c:\\aplicacionesapplus\\procesadosummary\\procesadosummary\\views\\selectandimportview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|solutionrelative:views\\selectandimportview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|c:\\aplicacionesapplus\\procesadosummary\\procesadosummary\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|solutionrelative:styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|c:\\aplicacionesapplus\\procesadosummary\\procesadosummary\\viewmodel\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|solutionrelative:viewmodel\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|c:\\aplicacionesapplus\\procesadosummary\\procesadosummary\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6190E5D0-C7A9-4645-B997-C08BE3729099}|ProcesadoSummary.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 508,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectAndImportViewModel.cs",
+              "DocumentMoniker": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\ViewModel\\SelectAndImportViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\SelectAndImportViewModel.cs",
+              "ToolTip": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\ViewModel\\SelectAndImportViewModel.cs",
+              "RelativeToolTip": "ViewModel\\SelectAndImportViewModel.cs",
+              "ViewState": "AgIAAGICAAAAAAAAAAAAAJACAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T08:08:31.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 350,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavigationViewModel.cs",
+              "DocumentMoniker": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\ViewModel\\NavigationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\NavigationViewModel.cs",
+              "ToolTip": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\ViewModel\\NavigationViewModel.cs",
+              "RelativeToolTip": "ViewModel\\NavigationViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T12:10:36.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-16T11:26:34.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SelectAndImportView.xaml",
+              "DocumentMoniker": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\Views\\SelectAndImportView.xaml",
+              "RelativeDocumentMoniker": "Views\\SelectAndImportView.xaml",
+              "ToolTip": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\Views\\SelectAndImportView.xaml",
+              "RelativeToolTip": "Views\\SelectAndImportView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-13T08:24:19.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Button.xaml",
+              "DocumentMoniker": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\Styles\\Button.xaml",
+              "RelativeDocumentMoniker": "Styles\\Button.xaml",
+              "ToolTip": "C:\\AplicacionesApplus\\ProcesadoSummary\\ProcesadoSummary\\Styles\\Button.xaml",
+              "RelativeToolTip": "Styles\\Button.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T07:22:30.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
