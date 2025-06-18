@@ -60,6 +60,18 @@
 
                     </Menu:Btn>-->
 
+                    <!--SELECCIONAR MDB E IMPORTAR SUMMARY-->
+                    <Menu:Btn Style="{StaticResource BtnStyle}"
+                      Command="{Binding SelectAndImportCommand}" IsChecked="True">
+
+                        <Grid>
+                            <!--<Image Source="Images/img_customer.png"
+                            Style="{StaticResource Image_Style}" />-->
+                            <TextBlock Text="Seleccionar e importar" />
+                        </Grid>
+
+                    </Menu:Btn>
+
 
                     <!--// Generar PDF //-->
 
@@ -71,21 +83,6 @@
                             <!--<Image Source="Images/img_customer.png"
                            Style="{StaticResource Image_Style}" />-->
                             <TextBlock Text="Generar Informes" />
-                        </Grid>
-
-                    </Menu:Btn>
-
-
-
-                    <!--SELECCIONAR MDB E IMPORTAR SUMMARY-->
-                    <Menu:Btn Style="{StaticResource BtnStyle}"
-                        Command="{Binding SelectAndImportCommand}"
-                              IsChecked="True">
-
-                        <Grid>
-                            <!--<Image Source="Images/img_customer.png"
-                            Style="{StaticResource Image_Style}" />-->
-                            <TextBlock Text="Seleccionar e importar" />
                         </Grid>
 
                     </Menu:Btn>

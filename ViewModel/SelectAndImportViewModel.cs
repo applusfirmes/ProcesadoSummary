@@ -119,6 +119,12 @@ namespace ProcesadoSummary.ViewModel
         {
             try
             {
+                if (string.IsNullOrEmpty(NombreMdbSelected))
+                {
+                    MessagesGlobal.MessageWarning("Seleccione un archivo MDB.", "MDB");
+
+                    return;
+                }
 
                 bool ok = ValidarDatosEntrada();
                 if (ok)
@@ -587,7 +593,27 @@ namespace ProcesadoSummary.ViewModel
                                     string anchoMaximo = hoja.Cells[fila, 68].Text; // Columna BP - MaxCrackWidth
 
                                     string PKI = hoja.Cells[fila, 5].Text + "+" + hoja.Cells[fila, 6].Text;
-                                    string PKF = hoja.Cells[fila, 7].Text + "+" + hoja.Cells[fila, 8].Text;
+
+                                    //IMPORTANTE LA VARIABLE valorSaltar sumado ala fila para recogerel final PKF correspondiente
+                                    string PKF = hoja.Cells[fila, 7].Text + "+" + hoja.Cells[fila + valorSaltar, 8].Text;
+
+                                    //Si es la útlima fila....
+                                    if (numero == fin)
+                                    {
+                                        int sumar = 0;
+                                        if (valorSaltar == 1)
+                                        {
+                                            sumar = 10;
+                                        }
+                                        else if (valorSaltar == 9)
+                                        {
+                                            sumar = 90;
+                                        }
+
+                                        int mFin = Convert.ToInt32(hoja.Cells[fila, 8].Text) + sumar;
+
+                                        PKF = hoja.Cells[fila, 7].Text + "+" + mFin.ToString();
+                                    }
 
                                     string pkiMod = ModSintaxisPKM(PKI);
                                     string pkfMod = ModSintaxisPKM(PKF);
