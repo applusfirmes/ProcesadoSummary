@@ -584,6 +584,11 @@ namespace ProcesadoSummary.ViewModel
                                     string longParches = "0";
                                     string indiceParches = "0";
 
+                                    //Campos que añadiremos a tablas a petición de Claudia y Dayana, NO están en el original del que genera la macro.
+                                    string leftIri = hoja.Cells[fila, 40].Text; // Columna AN - LeftIRI
+                                    string rightIri = hoja.Cells[fila, 41].Text; // Columna AO - RightIRI
+
+
                                     string anchoCarril = hoja.Cells[fila, 56].Text; // Columna BD - WidthLane
 
                                     string validarCarril = Convert.ToInt32(anchoCarril) >= 2400 ? "VERDADERO" : "FALSO"; //Si el anchoCarril es mayor o igual que 2400, guardaremos VERDADERO, de lo contrario FALSO.
